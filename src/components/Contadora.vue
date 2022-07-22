@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex justify-space-around pt-15">
-        <v-card class="opacitybg mx-auto" width="150px" wight="120px" href="https://www.yusufonaran.me" target="_blank">
+        <v-card class="opacitybg mx-auto" width="150px" weight="120px" href="https://www.yusufonaran.me" target="_blank">
             <v-card-text>
                 <p class="text-h2 text--primary text-center font-weight-regular">
                     {{ anos }}
@@ -12,7 +12,7 @@
                 </v-btn>
             </v-card-actions>
         </v-card>
-        <v-card class="opacitybg mx-auto" width="150px" wight="120px" href="https://www.yusufonaran.me" target="_blank">
+        <v-card class="opacitybg mx-auto" width="150px" weight="120px" href="https://www.yusufonaran.me" target="_blank">
             <v-card-text>
                 <p class="text-h2 text--primary text-center font-weight-regular">
                     {{ dias % 365 }}
@@ -26,7 +26,7 @@
         </v-card>
 
         <!-- ---------------------->
-        <v-card class="opacitybg-mx-auto" width="150px" wight="120px" href="https://www.yusufonaran.me" target="_blank">
+        <v-card class="opacitybg-mx-auto" width="150px" weight="120px" href="https://www.yusufonaran.me" target="_blank">
             <v-card-text>
                 <p class="text-h2 text--primary text-center font-weight-regular">
                     {{ horas % 24}}
@@ -40,7 +40,7 @@
         </v-card>
 
         <!-- ----------------------->
-        <v-card class="opacitybg mx-auto" width="150px" wight="120px" href="https://www.yusufonaran.me" target="_blank">
+        <v-card class="opacitybg mx-auto" width="150px" weight="120px" href="https://www.yusufonaran.me" target="_blank">
             <v-card-text>
                 <p class="text-h2 text--primary text-center font-weight-regular">
                     {{ minutos % 60}}
@@ -54,7 +54,7 @@
         </v-card>
 
         <!-- ----------------------->
-        <v-card class="opacitybg mx-auto" width="150px" wight="120px" href="https://www.yusufonaran.me" target="_blank">
+        <v-card class="opacitybg mx-auto" width="150px" weight="120px" href="https://www.yusufonaran.me" target="_blank">
             <v-card-text>
                 <p class="text-h2 text--primary text-center font-weight-regular">
                     {{ segundos % 60}}
